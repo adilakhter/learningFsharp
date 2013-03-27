@@ -21,3 +21,14 @@ a |> eq b // val it : bool = true
  *)
 (1,1) ||> eq // val it:bool = true
 (1,2) ||> eq // val it:bool = false
+
+
+
+let multiply x y = x*y 
+
+let double x = x |> multiply 2 
+
+(* 
+ * The composition (>>) operator
+ *)
+let quad = double >> double

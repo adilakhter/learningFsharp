@@ -1,5 +1,8 @@
-﻿  //---------------------overloading-----------------------
+﻿(*
+ * This F# script demostrates how to overload a function.
+ *)
 type FunHolder<'Arg, 'Result>() =
+
     // F# 3.0
     //static member val Definition =
     //    Unchecked.defaultof<'Arg -> 'Result> with get, set
